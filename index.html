@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Персональна сторінка викладача</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site">
+
+  <header class="header">
+    <div class="brand">
+      <svg class="brand-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linejoin="round" aria-hidden="true">
+        <path d="M5 3h13a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H5z"/>
+        <path d="M5 17h14M5 3v18"/>
+      </svg>
+      <div class="brand-text">
+        <strong>Кафедра комп’ютерних наук</strong>
+        <span>Персональна сторінка викладача</span>
+      </div>
+    </div>
+    <nav class="menu" aria-label="Головне меню">
+      <a href="#bio"><svg class="ico" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span>Біографія</span></a>
+      <a href="#disciplines"><svg class="ico" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M4 10h16M10 10v9"/></svg><span>Дисципліни</span></a>
+      <a href="#schedule"><svg class="ico" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v14H4z"/><path d="M4 11h16M8 3v4M16 3v4"/></svg><span>Розклад</span></a>
+      <a href="#publications"><svg class="ico" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M14 3v5h5M9 13h7M9 17h7"/></svg><span>Публікації</span></a>
+    </nav>
+  </header>
+
+  <div class="layout">
+
+    <main class="content">
+
+      <section id="bio" aria-labelledby="bio-title">
+        <div class="person">
+          <img src="photo.jpg" alt="Ковальчук Олександр Петрович">
+          <div class="person-text">
+            <strong>Ковальчук Олександр Петрович</strong>
+            <span>Кандидат технічних наук, доцент</span>
+          </div>
+        </div>
+        <h3 id="bio-title">Про викладача:</h3>
+        <p>Науково-педагогічний стаж понад 10 років. Сфера наукових інтересів: проєктування програмних систем, вебтехнології, алгоритми штучного інтелекту та моделювання бізнес-процесів.</p>
+        <p>Закінчив Національний технічний університет, здобув ступінь кандидата технічних наук за спеціальністю «Інформаційні технології». Автор понад 20 наукових та навчально-методичних праць, учасник міжнародних конференцій з програмної інженерії та вебтехнологій.</p>
+        <p>Керує курсовими та дипломними роботами студентів, бере участь у розробленні навчальних програм кафедри. Практичний досвід включає участь у комерційних проєктах із розроблення вебзастосунків, тому на заняттях поєднує теорію з реальними прикладами з індустрії.</p>
+        <p>Особливу увагу приділяє формуванню в студентів навичок командної роботи, написання чистого коду та презентації результатів власних проєктів.</p>
+      </section>
+
+      <section id="disciplines" aria-labelledby="disc-title">
+        <h3 id="disc-title">Навчальні дисципліни:</h3>
+        <div class="disciplines">
+      
+          <details class="discipline">
+            <summary>
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 14L6 32l16 18M42 14l16 18-16 18"/>
+              </svg>
+              <p>Веброзробка та дизайн інтерфейсів</p>
+            </summary>
+            <div class="popup">
+              <h4>Веброзробка та дизайн інтерфейсів</h4>
+              <p>Вивчення стандартів семантичної верстки HTML5 та сучасної стилізації CSS3 (Flexbox, Grid), створення прототипів у Figma, проєктування адаптивних вебсторінок та базова робота з клієнтським JavaScript.</p>
+            </div>
+          </details>
+      
+          <details class="discipline">
+            <summary>
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linejoin="round" aria-hidden="true">
+                <path d="M32 6l24 13v26L32 58 8 45V19z"/>
+                <path d="M8 19l24 13 24-13M32 32v26"/>
+              </svg>
+              <p>Об'єктно-орієнтоване програмування</p>
+            </summary>
+            <div class="popup">
+              <h4>Об'єктно-орієнтоване програмування</h4>
+              <p>Принципи ООП: інкапсуляція, успадкування, поліморфізм. Проєктування класів та інтерфейсів, робота з патернами проєктування, написання програм мовою Java.</p>
+            </div>
+          </details>
+      
+          <details class="discipline">
+            <summary>
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#8e2421" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M52 34v14a6 6 0 0 1-6 6H16a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6h24"/>
+                <path d="M22 30l10 10L58 10"/>
+              </svg>
+              <p>Архітектура та тестування програмного забезпечення</p>
+            </summary>
+            <div class="popup">
+              <h4>Архітектура та тестування програмного забезпечення</h4>
+              <p>Архітектурні стилі та шаблони, розроблення технічної документації, модульне та інтеграційне тестування, автоматизація перевірок якості програмного коду.</p>
+            </div>
+          </details>
+      
+        </div>
+      </section>
+      <section id="schedule" aria-labelledby="sch-title">
+        <h3 id="sch-title">Розклад консультацій та пар:</h3>
+        <ul class="schedule">
+          <li><b>Понеділок</b> 10:00 – 11:35 • Лекція, ауд. 312</li>
+          <li><b>Середа</b> 12:00 – 13:35 • Лабораторні роботи, комп. клас 4</li>
+          <li><b>П'ятниця</b> 14:00 – 15:30 • Консультації для студентів</li>
+        </ul>
+      </section>
+
+      <section id="gallery" aria-labelledby="gal-title">
+        <h3 id="gal-title">Проєкти:</h3>
+        <div class="gallery-grid">
+          <article class="card">
+            <img src="shop.jpg" alt="Інтернет-магазин">
+            <h4>Інтернет-магазин</h4>
+            <p>Адаптивна вітрина товарів на HTML5 та CSS Grid.</p>
+          </article>
+          <article class="card">
+            <img src="lab.jpg" alt="Облік лабораторного обладнання">
+            <h4>Система обліку</h4>
+            <p>Вебзастосунок для обліку лабораторного обладнання.</p>
+          </article>
+          <article class="card">
+            <img src="site.jpg" alt="Сайт">
+            <h4>Портфоліо</h4>
+            <p>Односторінковий сайт із прототипом у Figma.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="history" aria-labelledby="hist-title">
+        <h3 id="hist-title">Етапи професійного шляху:</h3>
+        <ol class="timeline">
+          <li><time datetime="2012">2012</time><p>Закінчення університету, початок викладацької діяльності.</p></li>
+          <li><time datetime="2016">2016</time><p>Захист кандидатської дисертації за спеціальністю «Інформаційні технології».</p></li>
+          <li><time datetime="2020">2020</time><p>Отримання звання доцента, розроблення нових навчальних програм.</p></li>
+          <li><time datetime="2024">2024</time><p>Перші публікації з оптимізації вебзастосунків.</p></li>
+        </ol>
+      </section>
+
+
+      <section id="news" aria-labelledby="news-title">
+        <h3 id="news-title">Останні публікації та новини:</h3>
+        <div class="news">
+          <article class="card">
+            <p class="meta"><time datetime="2026-09-12">12.09.2026</time> • Наука</p>
+            <h4>Тестування фронтенд-архітектури</h4>
+            <p class="tags"><span>#frontend</span> <span>#тестування</span></p>
+            <a class="btn" href="#">Читати далі</a>
+          </article>
+          <article class="card">
+            <p class="meta"><time datetime="2026-08-30">30.08.2026</time> • Навчання</p>
+            <h4>Нові методичні вказівки до лабораторних</h4>
+            <p class="tags"><span>#методичка</span> <span>#HTML5</span></p>
+            <a class="btn" href="#">Читати далі</a>
+          </article>
+          <article class="card">
+            <p class="meta"><time datetime="2026-06-05">05.06.2026</time> • Конференція</p>
+            <h4>Доповідь про адаптивні інтерфейси</h4>
+            <p class="tags"><span>#UX</span> <span>#CSS</span></p>
+            <a class="btn" href="#">Читати далі</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact-form" aria-labelledby="form-title">
+        <h3 id="form-title">Запис на консультацію:</h3>
+        <form class="form" action="#" method="post">
+          <label>Ім'я
+            <input type="text" name="name" placeholder="Імʼя" required minlength="2" autocomplete="name">
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="example@gmail.com" required autocomplete="email">
+          </label>
+          <label>Телефон
+            <input type="tel" name="phone" pattern="\+?[0-9]{10,13}" placeholder="+380501234567" title="10–13 цифр, можна з +">
+          </label>
+          <label>Тема
+            <select name="topic" required>
+              <option value="">Оберіть тему</option>
+              <option>Курсова робота</option>
+              <option>Дипломна робота</option>
+              <option>Лабораторні роботи</option>
+            </select>
+          </label>
+          <label class="wide">Повідомлення
+            <textarea name="message" rows="4" placeholder="Введіть повідомлення..." required></textarea>
+          </label>
+          <label class="check wide">
+            <input type="checkbox" name="agree" required> Погоджуюсь на обробку персональних даних
+          </label>
+          <button class="btn wide" type="submit">Надіслати заявку</button>
+        </form>
+      </section>
+
+    </main>
+
+    <aside class="aside">
+      <div class="aside-top">
+        <section id="publications" aria-labelledby="pub-title">
+          <h2 id="pub-title">Наукові публікації</h2>
+          <ol>
+            <li>Ковальчук О. П. Сучасні підходи до верстки та оптимізації вебзастосунків // Вісник науки. — 2024.</li>
+            <li>Ковальчук О. П., Сидоренко І. В. Моделювання адаптивних інтерфейсів у системному аналізі. — 2025.</li>
+            <li>Методичні вказівки до лабораторних робіт із дисципліни «Основи веброзробки». — 2026.</li>
+            <li>Ковальчук О. П. Оптимізація та тестування фронтенд-архітектури вебзастосунків // Комп'ютерні науки та інженерія. — 2026.</li>
+          </ol>
+        </section>
+
+        <section id="stats" aria-labelledby="stat-title">
+          <h2 id="stat-title">Статистика та метрики</h2>
+          <div class="stats">
+            <div class="stat"><strong>20+</strong><span>наукових праць</span></div>
+            <div class="stat"><strong>10+</strong><span>років стажу</span></div>
+            <div class="stat">
+              <label for="p1">Захищені курсові</label>
+              <progress id="p1" max="100" value="85">85%</progress>
+            </div>
+            <div class="stat">
+              <label for="m1">Рейтинг</label>
+              <meter id="m1" min="0" max="5" low="2" high="4" optimum="5" value="4.6">4,6 з 5</meter>
+            </div>
+          </div>
+        </section>
+
+        <section class="contacts" aria-labelledby="cont-title">
+          <h2 id="cont-title">Контакти</h2>
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#8e2421" aria-hidden="true"><path d="M2 5h20v14H2z"/><path d="M2 6l10 8 10-8" fill="none" stroke="#fff" stroke-width="2"/></svg>
+            <a href="mailto:o.kovalchuk@univ.edu.ua">o.kovalchuk@univ.edu.ua</a>
+          </p>
+          <p>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#8e2421" aria-hidden="true"><path d="M12 1a8 8 0 0 0-8 8c0 6 8 14 8 14s8-8 8-14a8 8 0 0 0-8-8z"/><circle cx="12" cy="9" r="3" fill="#fff"/></svg>
+            Ауд. 405 (Головний корпус)
+          </p>
+        </section>
+      </div>
+      <footer class="footer">
+        <p>© 2026 Персональна сторінка викладача.<br>Усі права захищено.</p>
+        <p><a href="#">Google Scholar</a> | <a href="#">ORCID</a> | <a href="#">GitHub</a></p>
+      </footer>
+    </aside>
+
+  </div>
+
+</div>
+</body>
+</html>
